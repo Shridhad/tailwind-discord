@@ -1,0 +1,26 @@
+.sidebar-icon {
+  @apply relative flex items-center justify-center 
+                 h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
+                 bg-white dark:bg-gray-800 hover:bg-green-600
+                 dark:hover:bg-green-600
+                 text-green-500 hover:text-white 
+                 rounded-3xl hover:rounded-xl
+                 transition-all duration-300 ease-linear
+                 cursor-pointer;
+}
+
+.sidebar-icon.active {
+  @apply bg-green-600 text-white;
+}
+
+.sidebar-highlight {
+  @apply absolute right-[102%] h-6 w-1 rounded-md bg-black dark:bg-white transition-all duration-200 origin-left scale-0;
+}
+
+.sidebar-tooltip {
+  @apply absolute w-auto p-2 m-2 min-w-max left-14
+                rounded-md shadow-md
+                text-white bg-gray-900
+                text-xs font-bold
+                transition-all duration-100 scale-0 origin-left;
+}

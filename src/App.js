@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useDarkMode } from "usehooks-ts";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
+  const { isDarkMode } = useDarkMode();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App flex bg-gray-500 ${isDarkMode ? "dark" : ""}`}>
+      <Sidebar />
+      <div className="chanel-container flex bg-gray-300 dark:bg-gray-700 m-0 w-full overflow-hidden; h-screen"></div>
     </div>
   );
 }

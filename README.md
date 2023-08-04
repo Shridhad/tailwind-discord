@@ -1,12 +1,18 @@
-# Getting Started with Create React App
+# Discord with Tailwind
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Getting Started
 
 In the project directory, you can run:
 
-### `npm start`
+### `npx create-react-app tailwind-discord`
+
+Go hit the gym and renew the sense of energy, raise your dopamine, endorphin, and testosterone levels. When you are back, the app skeleton should be ready ;)
+
+### `npm install -D tailwindcss`
+
+### `npx tailwindcss lint`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
