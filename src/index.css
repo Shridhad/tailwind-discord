@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities";
 
 @import "./styles/Sidebar.css";
+@import "./styles/ChannelBar.css";
 @import "./styles/ContentContainer.css";
 
 body {

@@ -3,7 +3,7 @@ import { AiFillWindows, AiFillAndroid, AiFillApple } from "react-icons/ai";
 
 function DownloadBar() {
   return (
-    <div className="relative flex items-center justify-center text-sm w-full h-9  text-white bg-green-800 shadow-md">
+    <div className="relative flex items-center justify-center text-sm w-full h-9 text-white bg-green-800 shadow-md">
       <span className="flex items-center absolute top-0 right-0 w-10 h-full">
         <MdClose size={24} />
       </span>

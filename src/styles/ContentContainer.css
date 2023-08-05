@@ -1,3 +1,7 @@
-.channel-bar {
-  @apply flex flex-col w-60 h-full bg-gray-300 dark:bg-gray-700 text-black dark:text-white shadow-md;
+.channel-container {
+  @apply flex m-0 w-full overflow-hidden h-screen;
+}
+
+.main-content {
+  @apply flex w-full justify-center text-black dark:text-white shadow-md bg-gray-300 dark:bg-gray-700;
 }
