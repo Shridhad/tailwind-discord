@@ -1,5 +1,7 @@
-import ChannelBar from "./ChannelBar";
+import ChannelBar from "../ChannelBar/ChannelBar";
 import DownloadBar from "./DownloadBar";
+import MessagesList from "./Messages/MessagesList";
+import MessageBar from "./MessageBar/MessageBar";
 
 function ContentContainer() {
   return (
@@ -7,7 +9,10 @@ function ContentContainer() {
       <DownloadBar />
       <div className="channel-container">
         <ChannelBar />
-        <main className="main-content">Main Content</main>
+        <main className="main-content">
+          <MessagesList />
+          <MessageBar />
+        </main>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { ReactComponent as Friends } from "./Friends.svg";
 import { ReactComponent as Nitro } from "./Nitro.svg";
+import { BiPlus } from "react-icons/bi";
 
 function ChannelBar() {
   return (
@@ -15,7 +16,15 @@ function ChannelBar() {
           <Nitro width="24px" height="24px" /> Nitro
         </li>
       </ul>
-      <section></section>
+      <section className="direct-messages">
+        <h2 className="heading">
+          <span>Direct Messages</span>
+          <BiPlus size={16} />
+        </h2>
+        <ul className="messages">
+          <li className="message"></li>
+        </ul>
+      </section>
     </div>
   );
 }

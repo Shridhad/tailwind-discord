@@ -2,12 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "./styles/Sidebar.css";
-@import "./styles/ChannelBar.css";
-@import "./styles/ContentContainer.css";
+@import "./styles/index.css";
 
 body {
   margin: 0;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

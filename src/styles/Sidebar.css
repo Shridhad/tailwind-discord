@@ -1,5 +1,5 @@
 .sidebar {
-  @apply h-screen w-16 flex flex-col bg-gray-100 dark:bg-gray-900 shadow-lg;
+  @apply min-h-screen w-16 flex flex-col bg-gray-100 dark:bg-gray-900 shadow-lg;
 }
 
 .sidebar-icon {
